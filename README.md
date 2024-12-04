@@ -1,1 +1,1 @@
-# Mesalvo Themes for Visual Studio Code
+# Themes for Visual Studio Code
