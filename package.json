@@ -1,0 +1,48 @@
+{
+  "name": "pol-themes",
+  "displayName": "Pol Themes",
+  "description": "A vsc style configuration with a beauty and custom branding.",
+  "version": "0.0.9",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color",
+    "pol",
+    "gubau",
+    "amores",
+    "codedByPol"
+  ],
+  "private": false,
+  "pricing": "Free",
+  "contributes": {
+    "themes": [
+      {
+        "label": "schwarzwald",
+        "uiTheme": "vs-dark",
+        "path": "./themes/schwarzwald.json"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.pol",
+        "key": "ctrl+alt+p",
+        "mac": "cmd+alt+p",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "extension.pol",
+          "when": "editorHasSelection"
+        }
+      ]
+    }
+  }
+}
